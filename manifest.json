@@ -1,0 +1,18 @@
+{
+   //licensed under GNU GPL3
+   "name": "NetSuite Bubblegum Theme",
+   "version": "1.0",
+   "manifest_version": 2,
+   "description": "Why bubblegum? Because bubblegum is always good ",
+   "author": "tapik & DedoCibula",
+   "content_scripts": [
+      {
+         "matches": [ "*://*.netsuite.com/*.nl*"],
+         "js": [ "jquery.min.js", "bubblegum.js" ],
+         "all_frames": true
+      }
+   ],
+   "icons": {
+      "48": "favicon.png"
+   }
+}
